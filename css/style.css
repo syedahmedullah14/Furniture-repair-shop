@@ -103,6 +103,7 @@ header{
 }
 
 section{
+    margin-top: 2rem;
     padding: 70px 14% 60px;
 }
 
@@ -117,6 +118,8 @@ section{
 }
 
 .home-img img{
+    /* border: 10px; */
+    border-radius: 2rem;
     width: 100%;
     height: auto;
 }
@@ -215,6 +218,7 @@ header.sticky {
 }
 .about-img img{
 
+border-radius: 2rem;
 width: 100%;
 height: auto;
 
@@ -348,8 +352,9 @@ color: var(--main-color);
 
 }
 .bx-img img{
+    
     width: 100%;
-    height: auto;
+    height: 5rem;
     border-radius: 3rem;
 }
 .bxx-text h4{
