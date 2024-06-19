@@ -515,11 +515,11 @@ h2 {
     height: 2.8rem;
 }
 
-#menu-icon {
+/* #menu-icon {
     display: none;
     font-size: 2rem;
     cursor: pointer;
-}
+} */
 
 @media (max-width: 1545px){
     header{
@@ -551,7 +551,7 @@ h2 {
     }
 }
 @media (max-width: 1060px){
-    #menu-icons{
+    #menu-icon{
         display: initial;
     }
     .navlist{
@@ -574,7 +574,7 @@ h2 {
 
     }
     .navlist.open{
-
+        top: 100%
     }
 
 }
@@ -645,9 +645,9 @@ h2 {
         }
 }
 @media (max-width: 440px){
-    #menu-icon {
+    /* #menu-icon {
         display: block;
-    }
+    } */
     .home{
         height: 110vh;
         gap: 0.1rem;
