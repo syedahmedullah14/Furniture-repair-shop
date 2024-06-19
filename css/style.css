@@ -663,3 +663,26 @@ h2 {
     
 }
 
+.contact-content{
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+.home-img img{
+    /* border: 10px; */
+    margin-top: 2rem;
+    border-radius: 2rem;
+    width: 100%;
+    height: auto;
+}
+
+}
