@@ -36,6 +36,20 @@ sr.reveal ('.row-btn, .shop-content', {delay:300});
 
 sr.reveal ('.review-content, .contact', {delay:300});
 
+// document.addEventListener('DOMContentLoaded', function() {
+//     const menuIcon = document.getElementById('menu-icon');
+//     const navlist = document.querySelector('.navlist');
+
+//     menuIcon.addEventListener('click', function() {
+//         navlist.classList.toggle('active');
+//     });
+// });
+
+
+
+
+
+
 
 
 // document.getElementById('orderForm').addEventListener('submit', function(event) {
